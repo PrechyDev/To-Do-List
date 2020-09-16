@@ -89,3 +89,9 @@ ul li .done {
 .fa:hover {
     color: #000069;
 }
+@media only screen and (max-width: 500px) {
+.container {
+    margin: auto;
+    border-radius: none;
+}
+}
