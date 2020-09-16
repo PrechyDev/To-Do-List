@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <div class="container">
+       <header>
+           <!-- refresh  button for deleting all-->
+           <div class="refresh">
+            <i class="fa fa-refresh"></i>
+           </div>
+           <div class="day">
+            <h1>My Day</h1>
+
+            <!-- show current day -->
+            <div id="date"></div>
+           </div>
+       </header> 
+
+       <main>
+           <ul id="list"></ul>
+       </main>
+
+       <div class="add-item">
+        <i class="fa fa-plus-circle"></i>
+        <input type="text" name="input" id="input" placeholder="What would you like to do today...">
+       </div>
+
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
