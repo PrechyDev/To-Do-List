@@ -96,4 +96,7 @@ ul li .done {
     margin: 0 auto;
     border-radius: 0;
 }
+header {
+    border-radius: 0;
+}
 }
