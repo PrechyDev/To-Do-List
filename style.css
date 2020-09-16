@@ -54,7 +54,7 @@ h1 {
     color: #000069;
 }
 input[type=text] {
-    padding: 0.5rem;
+    padding: 0 0.5rem;
     outline: none;
     border: none;
     width: 100%;
@@ -91,7 +91,7 @@ ul li .done {
 }
 @media only screen and (max-width: 500px) {
 .container {
-    margin: auto;
-    border-radius: none;
+    margin: 0 auto;
+    border-radius: 0;
 }
 }
